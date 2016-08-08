@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Javascript</title>
+	</head>
+	<body>
+		<h1>Nombre</h1>
+		<form name="Form">
+			<input name="nombre">
+			<input name="Output">
+			<input type="button" value="Nombre" onclick="fun()">
+		</form>
+	</body>
+	<script>
+		function fun() {
+			document.Form.Output.value = document.Form.nombre.value;
+		}
+	</script>
+</html>
